@@ -38,6 +38,12 @@ module.exports = {
           800: '#2c5282',
           900: '#2a4365',
         },
+        red: {
+          100: '#FF0000',
+        }
+      },
+      backgroundImage: {
+        'main': "url('/assets/images/mattjaeh_bg_w.png')",
       },
     },
   },
