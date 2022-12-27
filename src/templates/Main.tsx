@@ -1,4 +1,4 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { AppConfig } from '@/utils/AppConfig';
