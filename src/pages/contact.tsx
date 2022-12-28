@@ -30,7 +30,7 @@ const Contact: NextPage = () => {
             },
             body: JSON.stringify(form)
         });
-        const _content = await rawResponse.json();
+        await rawResponse.json();
         
 
         // print to screen
