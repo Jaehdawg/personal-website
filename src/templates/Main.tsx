@@ -13,17 +13,17 @@ const Main = (props: IMainProps) => (
   <div className="w-full px-1 text-black antialiased w-full h-screen bg-center bg-main bg-cover">
     {props.meta}
 
-    <div className="mx-auto max-w-screen-md">
+    <div className="mx-auto max-w-screen-lg">
       <div>
-        <div className="pt-3 pb-8">
-          <div className="text-6xl font-thin leading-tight font-sans text-black">
+        <div className="pt-3 pb-3">
+          <div className="text-5xl font-thin leading-10 font-sans text-black">
             {AppConfig.title}
           </div>
           <div className="text-xl text-red-100">{AppConfig.description}</div>
         </div>
-        <div className="content py-3 text-m">{props.children}</div>
+        <div className="content p-3 text-m text-white backdrop-brightness-50">{props.children}</div>
         <div>
-          <ul className="flex flex-wrap text-xl font-extrabold">
+          <ul className="flex flex-wrap text-xl font-extrabold p-1">
             <li className="mr-10">
               Lets Get Social
             </li>

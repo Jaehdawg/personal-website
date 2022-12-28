@@ -14,7 +14,7 @@ const Index = () => {
         />
       }
     >
-      <h1 className="text-5xl font-bold">
+      <h1 className="text-5xl font-sans pb-4">
         WHO IS MATT JAEH?
       </h1>
         Over the years, I've developed a knack for solving complex entrepreneurial problems through innovative strategy,
@@ -22,14 +22,14 @@ const Index = () => {
         exited it in 2020 for <i>over half-billion dollars.</i>
       <p></p>
       <div className='flex flex-col items-center'>
-        <h1 className='text-4xl font-bold'>
+        <h1 className='text-4xl text-blue-400 font-bold'>
           I WANT TO HELP YOU.
         </h1>
       </div>
       <p></p>
       Are you trying to start a business?  Are you struggling with your start-up?  Looking for a mentor? Advisor? Investor?
       Or just want someone to talk to?  
-      
+      <p> </p>
       
     </Main>
   );

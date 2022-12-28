@@ -43,7 +43,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'main': "url('/assets/images/mattjaeh_bg_w.png')",
+        'main': "url('/assets/images/mattjaeh_bg2.png')",
       },
     },
   },
