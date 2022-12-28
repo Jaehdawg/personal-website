@@ -23,6 +23,7 @@
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
+- Google Forms integration
 
 Built-in feature from Next.js:
 
