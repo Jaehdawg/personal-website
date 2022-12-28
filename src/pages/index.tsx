@@ -21,10 +21,10 @@ const Index = () => {
         exited it in 2020 for <i>over half-billion dollars.</i>
       <p></p>
       <div className='flex flex-col items-center'>
-        <h1 className='text-4xl text-blue-400 font-bold'>
+        <h1 className='text-4xl text-blue-400 font-extrabold'>
         <Link
           href="/contact/"
-          className="border-none hover:text-yellow-100"
+          className="border-none hover:text-yellow-600"
         > 
           I WANT TO HELP YOU.
         </Link>
