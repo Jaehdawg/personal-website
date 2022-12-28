@@ -1,9 +1,8 @@
-//import { useRouter } from 'next/router';
+import Link from 'next/link';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 const Index = () => {
-  //const router = useRouter();
 
   return (
     <Main
@@ -14,7 +13,7 @@ const Index = () => {
         />
       }
     >
-      <h1 className="text-5xl font-sans pb-4">
+      <h1 className="text-4xl font-sans pb-4">
         WHO IS MATT JAEH?
       </h1>
         Over the years, I've developed a knack for solving complex entrepreneurial problems through innovative strategy,
@@ -23,7 +22,12 @@ const Index = () => {
       <p></p>
       <div className='flex flex-col items-center'>
         <h1 className='text-4xl text-blue-400 font-bold'>
+        <Link
+          href="/contact/"
+          className="border-none hover:text-yellow-100"
+        > 
           I WANT TO HELP YOU.
+        </Link>
         </h1>
       </div>
       <p></p>

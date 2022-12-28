@@ -1,4 +1,4 @@
-//import Link from 'next/link';
+import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { AppConfig } from '@/utils/AppConfig';
@@ -23,11 +23,24 @@ const Main = (props: IMainProps) => (
         </div>
         <div className="content p-3 text-m text-white backdrop-brightness-50">{props.children}</div>
         <div>
-          <ul className="flex flex-wrap text-xl font-extrabold p-1">
-            <li className="mr-10">
-              Lets Get Social
+          <ul className="flex flex-wrap text-xl font-bold p-1">
+          <li className="mr-7">
+              <Link
+                href="/"
+                className="border-none text-black hover:text-gray-800"
+              >
+                Home
+              </Link>
             </li>
-            <li className="mr-10">
+            <li className="mr-7">
+              <Link
+                href="/contact/"
+                className="border-none text-black hover:text-gray-800"
+              >
+                Contact
+              </Link>
+            </li>
+            <li className="mr-7">
             <SocialIcon 
               url="https://www.tiktok.com/@realmattjaeh"
               style={{height: 30, width: 30}}
