@@ -30,7 +30,7 @@ const Contact: NextPage = () => {
             },
             body: JSON.stringify(form)
         });
-        const content = await rawResponse.json();
+        // const content = await rawResponse.json();
 
         // print to screen
         alert("Thank you for your submision")
