@@ -42,15 +42,15 @@ const Main = (props: IMainProps) => (
             </li>
             <li className="mr-7">
             <SocialIcon 
-              url="https://www.tiktok.com/@realmattjaeh"
+              url="https://www.tiktok.com/@realmattjaeh/"
               style={{height: 30, width: 30}}
               />
             <SocialIcon 
-              url="https://www.instagram.com/mattjaeh/"
+              url="https://www.instagram.com/jaehdawg/"
               style={{height: 30, width: 30}}
               />
             <SocialIcon 
-              url="https://www.youtube.com/channel/UC-6cRd9sA2ytw5M6_Dbnvqg"
+              url="https://www.youtube.com/@mattjaeh/"
               style={{height: 30, width: 30}}
               />
             <SocialIcon 
