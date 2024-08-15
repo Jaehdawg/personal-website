@@ -70,6 +70,7 @@ const Main = (props: IMainProps) => (
       <div className="py-4 text-center text-xs">
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Made with help from{' '}
         <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>.
+        <br>Privacy Policy<a href="privacy.html">Privacy Policy</a></br>.
       </div>
     </div>
   </div>
