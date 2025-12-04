@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { Meta } from './Meta';
+
 
 type LayoutProps = {
     meta: ReactNode;
