@@ -13,13 +13,17 @@ const About = () => {
                         <span className="text-yellow-500 font-bold"> over half a billion dollars</span>.
                     </p>
                     <p>
-                        But the journey wasn't a straight line. It took grit, innovation, and a relentless focus on
-                        customer needs. Now, I use that experience to help the next generation of founders avoid
-                        the pitfalls I faced and scale faster.
+                        But the journey wasn't a straight line. I probably made every mistake possible.
+                        It took grit, innovation, and a relentless focus on customer needs. Now, I use that
+                        experience to help the next generation of founders avoid the pitfalls I faced and hopefully
+                        help them to succeed.
                     </p>
                     <p>
-                        Whether you are a technical founder needing business strategy, or a small business looking
-                        to leverage technology, I can help you bridge the gap.
+                        Are you trying to start a business?  Are you struggling with your start-up?
+                        Looking for a mentor? Advisor? Investor? Or just want someone to talk to?
+                    </p>
+                    <p>
+                        Hit me up! I want to help.
                     </p>
                 </div>
                 <div className="relative h-96 w-full overflow-hidden rounded-2xl bg-gray-800 shadow-2xl">
