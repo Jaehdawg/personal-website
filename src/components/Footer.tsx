@@ -6,11 +6,11 @@ const Footer = () => {
             <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
                 <h2 className="mb-6 text-2xl font-bold">Connect with me</h2>
                 <div className="mb-8 flex justify-center space-x-6">
-                    <SocialIcon url="https://www.tiktok.com/@realmattjaeh/" fgColor="white" />
-                    <SocialIcon url="https://www.instagram.com/jaehdawg/" fgColor="white" />
-                    <SocialIcon url="https://www.youtube.com/@mattjaeh/" fgColor="white" />
-                    <SocialIcon url="https://www.linkedin.com/in/matthewjaeh/" fgColor="white" />
-                    <SocialIcon url="https://www.facebook.com/matthew.jaeh/" fgColor="white" />
+                    <SocialIcon url="https://www.tiktok.com/@realmattjaeh/" fgColor="white" size={32} />
+                    <SocialIcon url="https://www.instagram.com/jaehdawg/" fgColor="white" size={32} />
+                    <SocialIcon url="https://www.youtube.com/@mattjaeh/" fgColor="white" size={32} />
+                    <SocialIcon url="https://www.linkedin.com/in/matthewjaeh/" fgColor="white" size={32} />
+                    <SocialIcon url="https://www.facebook.com/matthew.jaeh/" fgColor="white" size={32} />
                 </div>
                 <p className="text-sm text-gray-500">
                     © {new Date().getFullYear()} Matt Jaeh. All rights reserved.
