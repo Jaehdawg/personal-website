@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <div className="relative h-96 w-full overflow-hidden rounded-2xl bg-gray-800 shadow-2xl">
                     <img
-                        src="/assets/images/2024-MattJaeh-Headshot2.png"
+                        src="/assets/images/matt-jaeh-headshot2.png"
                         alt="Matt Jaeh"
                         className="h-full w-full object-cover"
                     />
