@@ -53,10 +53,10 @@ const Contact: NextPage = () => {
 
     return (
         <Layout
-            meta={<Meta title="Contact Matt Jaeh" description="Get in touch for mentorship or investment." />}
+            meta={<Meta title="Contact Matt Jaeh" description="Get in touch" />}
         >
             <div className="pt-24"> {/* Spacer for fixed navbar */}
-                <Section title="Get in Touch" subtitle="Ready to scale? Let's talk.">
+                <Section title="Get in Touch" subtitle="Ready to take it to the next level? Let's talk.">
                     <div className="mx-auto max-w-xl rounded-2xl bg-zinc-900 p-8 shadow-2xl">
                         <form className="space-y-6" onSubmit={handleSubmit}>
                             <div>
@@ -111,7 +111,7 @@ const Contact: NextPage = () => {
                                     required
                                     rows={4}
                                     className="block w-full rounded-lg border border-gray-700 bg-black p-3 text-white placeholder-gray-500 focus:border-yellow-500 focus:ring-yellow-500"
-                                    placeholder="Tell me about your business..."
+                                    placeholder="How can I help you?"
                                 />
                             </div>
 
