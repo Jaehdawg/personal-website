@@ -3,7 +3,7 @@ import { Section } from './Section';
 const services = [
     {
         title: 'Mentorship',
-        description: 'One-on-one guidance to help you navigate the challenges of scaling.',
+        description: 'One-on-one guidance to help you navigate the challenges of running your business.',
         icon: '🚀',
     },
     {
