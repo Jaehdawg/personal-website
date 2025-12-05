@@ -1,9 +1,4 @@
 import { SocialIcon } from 'react-social-icons';
-import 'react-social-icons/tiktok';
-import 'react-social-icons/instagram';
-import 'react-social-icons/youtube';
-import 'react-social-icons/linkedin';
-import 'react-social-icons/facebook';
 
 const Footer = () => {
     return (
