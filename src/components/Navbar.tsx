@@ -33,15 +33,15 @@ const Navbar = () => {
                     MATT JAEH
                 </Link>
                 <div className="hidden space-x-8 md:flex">
-                    <Link href="/#about" className="text-sm font-medium text-gray-300 hover:text-white">
+                    <Link href="/#about" className="py-2 text-md font-medium text-gray-300 hover:text-white">
                         About
                     </Link>
-                    <Link href="/#services" className="text-sm font-medium text-gray-300 hover:text-white">
+                    <Link href="/#services" className="py-2 text-md font-medium text-gray-300 hover:text-white">
                         Services
                     </Link>
                     <Link
                         href="/contact"
-                        className="rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-200"
+                        className="rounded-full bg-white px-5 py-2 text-md font-bold text-black transition-colors hover:bg-gray-200"
                     >
                         Contact
                     </Link>
