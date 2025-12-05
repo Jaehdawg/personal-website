@@ -9,7 +9,7 @@ const services = [
     {
         title: 'Speaking and Events',
         description: 'Lessons Learned, Industry Insights, Personal Stories, Keynotes, Panels, Judging.',
-        icon: '',
+        icon: '🎤',
     },
     {
         title: 'Strategic Advisory',
