@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { cn } from '@/utils/cn';
 
@@ -21,7 +22,14 @@ const Navbar = () => {
             )}
         >
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-                <Link href="/" className="text-2xl font-bold text-white">
+                <Link href="/" className="flex items-center gap-3 text-2xl font-bold text-white">
+                    <Image
+                        src="/Icon.png"
+                        alt="Matt Jaeh Icon"
+                        width={40}
+                        height={40}
+                        className="rounded-full"
+                    />
                     MATT JAEH
                 </Link>
                 <div className="hidden space-x-8 md:flex">
