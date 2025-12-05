@@ -1,5 +1,9 @@
 import { SocialIcon } from 'react-social-icons';
 import 'react-social-icons/tiktok';
+import 'react-social-icons/instagram';
+import 'react-social-icons/youtube';
+import 'react-social-icons/linkedin';
+import 'react-social-icons/facebook';
 
 const Footer = () => {
     return (
@@ -7,11 +11,11 @@ const Footer = () => {
             <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
                 <h2 className="mb-6 text-2xl font-bold">Connect with me</h2>
                 <div className="mb-8 flex justify-center space-x-6">
-                    <SocialIcon url="https://www.tiktok.com/@realmattjaeh/" bgColor="transparent" fgColor="white" />
-                    <SocialIcon url="https://www.instagram.com/jaehdawg/" bgColor="transparent" fgColor="white" />
-                    <SocialIcon url="https://www.youtube.com/@mattjaeh/" bgColor="transparent" fgColor="white" />
-                    <SocialIcon url="https://www.linkedin.com/in/matthewjaeh/" bgColor="transparent" fgColor="white" />
-                    <SocialIcon url="https://www.facebook.com/matthew.jaeh/" bgColor="transparent" fgColor="white" />
+                    <SocialIcon url="https://www.tiktok.com/@realmattjaeh/" bgColor="transparent" />
+                    <SocialIcon url="https://www.instagram.com/jaehdawg/" bgColor="transparent" />
+                    <SocialIcon url="https://www.youtube.com/@mattjaeh/" bgColor="transparent" />
+                    <SocialIcon url="https://www.linkedin.com/in/matthewjaeh/" bgColor="transparent" />
+                    <SocialIcon url="https://www.facebook.com/matthew.jaeh/" bgColor="transparent" />
                 </div>
                 <p className="text-sm text-gray-500">
                     © {new Date().getFullYear()} Matt Jaeh. All rights reserved.
