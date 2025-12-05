@@ -33,10 +33,10 @@ const Navbar = () => {
                     MATT JAEH
                 </Link>
                 <div className="hidden space-x-8 md:flex">
-                    <Link href="/#about" className="mx-auto mb-10 max-w-2xl text-xl text-gray-400 hover:text-white">
+                    <Link href="/#about" className="text-sm font-medium text-gray-300 hover:text-white">
                         About
                     </Link>
-                    <Link href="/#services" className="mx-auto mb-10 max-w-2xl text-xl text-gray-400 hover:text-white">
+                    <Link href="/#services" className="text-sm font-medium text-gray-300 hover:text-white">
                         Services
                     </Link>
                     <Link
