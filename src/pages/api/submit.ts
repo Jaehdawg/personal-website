@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import {google} from "googleapis";
+import { google } from "googleapis";
 
 type SheetForm = {
     name: string
@@ -42,7 +42,7 @@ export default async function handler(
             valueInputOption: 'USER_ENTERED',
             requestBody: {
                 values: [
-                    [body.name, body.email, body.phone, body.message]
+                    [body.name, body.email, body.phone, body.message, new Date().toISOString()]
                 ]
             }
         });
@@ -50,8 +50,8 @@ export default async function handler(
         return res.status(201).json({
             data: response.data
         })
-    }catch (e: any) {
-        return res.status(e.code).send({message: e.message})
+    } catch (e: any) {
+        return res.status(e.code).send({ message: e.message })
     }
 
 }
