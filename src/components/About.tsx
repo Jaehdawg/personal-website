@@ -13,7 +13,7 @@ const About = () => {
                         <span className="text-yellow-500 font-bold"> over half a billion dollars</span>.
                     </p>
                     <p>
-                        But the journey wasn't a straight line. <i>I probably made every mistake possible.</i>
+                        But the journey wasn't a straight line. <span className="text-yellow-500 font-bold">I probably made every mistake possible.</span>
                         It took grit, innovation, and a relentless focus on customer needs. Now, I use that
                         experience to help the next generation of founders avoid the pitfalls I faced and hopefully
                         help them to succeed.
