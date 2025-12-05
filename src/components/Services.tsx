@@ -7,18 +7,18 @@ const services = [
         icon: '🚀',
     },
     {
-        title: 'Angel Investing',
-        description: 'Capital and strategic support for high-potential businesses.',
-        icon: '💎',
+        title: 'Speaking and Events',
+        description: 'Lessons Learned, Industry Insights, Personal Stories, Keynotes, Panels, Judging.',
+        icon: '',
     },
     {
         title: 'Strategic Advisory',
-        description: 'High-level strategy for product market fit, go-to-market, and exit planning.',
+        description: 'High-level strategy for product market fit, go-to-market, fundraising executive coaching and exit planning.',
         icon: '🎯',
     },
     {
-        title: 'Technical Review',
-        description: 'Assessment of your tech stack and engineering practices to ensure scalability.',
+        title: 'Technical Review and Diligence',
+        description: 'Assessment of your business practices to ensure scalability. Due diligence for acquisitions and investments.',
         icon: '⚙️',
     },
 ];

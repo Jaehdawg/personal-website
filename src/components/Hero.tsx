@@ -19,7 +19,7 @@ const Hero = () => {
                     <h1 className="mb-6 text-5xl font-extrabold tracking-tight sm:text-7xl">
                         From Startup to <br />
                         <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                            Half-Billion Exit
+                            Half-Billion Dollar Exit
                         </span>
                     </h1>
                 </motion.div>
