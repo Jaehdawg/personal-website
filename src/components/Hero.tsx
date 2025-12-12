@@ -5,9 +5,37 @@ const Hero = () => {
     return (
         <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black text-white">
             {/* Background Effects */}
-            <div className="absolute inset-0 z-0 opacity-30">
-                <div className="absolute -left-20 -top-20 h-96 w-96 rounded-full bg-blue-900 blur-3xl filter" />
-                <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-yellow-900 blur-3xl filter" />
+            <div className="absolute inset-0 z-0 opacity-50">
+                <motion.div
+                    animate={{
+                        scale: [1, 1.3, 1],
+                        x: [0, 50, 0],
+                        y: [0, 50, 0],
+                        opacity: [0.3, 0.8, 0.3],
+                    }}
+                    transition={{
+                        duration: 8,
+                        repeat: Infinity,
+                        repeatType: "reverse",
+                        ease: "easeInOut"
+                    }}
+                    className="absolute -left-20 -top-20 h-96 w-96 rounded-full bg-blue-900 blur-3xl filter"
+                />
+                <motion.div
+                    animate={{
+                        scale: [1, 1.3, 1],
+                        x: [0, -60, 0],
+                        y: [0, 40, 0],
+                        opacity: [0.4, 0.9, 0.4],
+                    }}
+                    transition={{
+                        duration: 10,
+                        repeat: Infinity,
+                        repeatType: "reverse",
+                        ease: "easeInOut"
+                    }}
+                    className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-yellow-900 blur-3xl filter"
+                />
             </div>
 
             <div className="z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
